@@ -1,0 +1,85 @@
+html,body{
+	height: 100%;
+	overflow: hidden;
+	position: relative;
+}
+.mblHeading {
+white-space: nowrap;
+color: white;
+background-color: black;
+background-image:none;
+font-family: Helvetica;
+font-size: 20px;
+font-weight: bold;
+text-align: center;
+line-height: 44px;
+text-shadow: rgba(0, 0, 0, 0.6) 0px -1px 0px;
+}
+.subtitle {
+	color: gray;
+	font-size: 12px;
+}
+#news {
+	font-size: 14px;
+}
+.list1 li{
+}
+.list1 li:nth-child(even){
+	background-color: #EAEAEA;
+}
+.list1 .mblListItemTextBox {
+	padding-right: 5px;
+}
+.c1 {
+	width: 200px;
+	float: left;
+	font-size: 1em;
+}
+.c2 {
+	width: 400px;
+	text-align: left;
+	float: left;
+	font-size: 1em;
+}
+.c3 {
+	text-align: left;
+	width: 150px;
+	float: left;	
+	font-size: 1em;	
+}
+.c3a {
+	border: 2px solid #598F3A;
+	background-color: #6FB248;
+	background-image: -webkit-gradient(linear, left top, left bottom, from(#6FB248), to(#54972D), color-stop(0.5, #5FA238), color-stop(0.5, #54972D));
+}
+.c3b {
+	border: 2px solid #9B322D;
+	background-color: #C13E37;
+	background-image: -webkit-gradient(linear, left top, left bottom, from(#C13E37), to(#A6231C), color-stop(0.5, #B6332C), color-stop(0.5, #A8251E));
+}
+#tbl1 {
+	margin: auto;
+}
+#tbl1 td {
+	text-align: right;
+	border-bottom: 1px solid #DEE9F5;
+	font: bold 13px arial,helvetica,clean,sans-serif;
+}
+#tbl1 td:first-child {
+	text-align: left;
+}
+#tbl1 td.g {
+	color: #008800
+}
+#tbl1 td.r {
+	color: #CC0000
+}
+.notes
+{	float:both;
+	margin-top:4px;
+	margin-left:20px;
+	width:900px;
+	background-color:white; 
+	border: black solid thin;
+	padding: 5 5 5 5;
+}

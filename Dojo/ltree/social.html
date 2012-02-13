@@ -1,0 +1,188 @@
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+	<meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,minimum-scale=1,user-scalable=no"/>
+	<meta name="apple-mobile-web-app-capable" content="yes" />
+	<title>Learning Tree - Disruptive Demo</title>
+	<link rel="stylesheet" type="text/css" href="http://demos.dojotoolkit.org/dojox/mobile/themes/iphone/base.css">
+	<link rel="stylesheet" type="text/css" href="http://demos.dojotoolkit.org/dojox/mobile/themes/iphone/TabBar.css">
+	
+	<link href="css/demo.css" rel="stylesheet">
+
+	<!--<script src="http://ajax.googleapis.com/ajax/libs/dojo/1.7.1/dojo/dojo.js" type="text/javascript" djConfig="parseOnLoad: true, async: true, mblAlwaysHideAddressBar: true"></script>
+	-->
+	<script src="http://ajax.googleapis.com/ajax/libs/dojo/1.7.1/dojo/dojo.js" djconfig="parseOnLoad: true"></script>
+
+	<script language="JavaScript" type="text/javascript">
+		dojo.require("dojox.mobile.TextBox");
+		dojo.require("dojo.io.script");
+        dojo.require("dojox.mobile.parser");
+        dojo.require("dojox.mobile");
+        dojo.require("dojox.mobile.TabBar");
+        dojo.requireIf(!dojo.isWebKit, "dojox.mobile.compat");
+        dojo.require("dojox.mobile.ScrollableView");
+	</script>
+	</head>
+<body style="visibility:hidden;">
+	<div id="group1" dojoType="dojox.mobile.View" selected="true">
+		<h3 dojotype="dojox.mobile.Heading">KaplanU Learning Tree</h3>
+		
+		<ul dojoType="dojox.mobile.TabBar" barType="segmentedControl" fixed="top">
+			<li dojoType="dojox.mobile.TabBarButton" icon1="http://demos.dojotoolkit.org/dojox/mobile/tests/images/tab-icon-16.png" icon2="http://demos.dojotoolkit.org/dojox/mobile/tests/images/tab-icon-16h.png" moveTo="viewCurrent" selected="true">Current</li>
+			<li dojoType="dojox.mobile.TabBarButton" icon1="http://demos.dojotoolkit.org/dojox/mobile/tests/images/tab-icon-15.png" icon2="http://demos.dojotoolkit.org/dojox/mobile/tests/images/tab-icon-15h.png" moveTo="viewPrevious">Previous</li>
+			<li dojoType="dojox.mobile.TabBarButton" icon1="http://demos.dojotoolkit.org/dojox/mobile/tests/images/tab-icon-10.png" icon2="http://demos.dojotoolkit.org/dojox/mobile/tests/images/tab-icon-10h.png" moveTo="viewAll">All</li>
+		</ul>
+		<div class="field-title">
+			Login
+		</div>
+		<div class="fieldset">
+			<div class="field-row">
+				<span>User name*</span>
+				<input dojoType="dojox.mobile.TextBox" name="username" >
+				</input>
+			</div>
+			<div class="field-row">
+				<span>Password*</span>
+				<input name="pass" dojoType="dojox.mobile.TextBox">
+				</input>
+			</div>
+		</div>		
+		<div id="viewCurrent" dojoType="dojox.mobile.ScrollableView" selected="true">
+			<ul dojoType="dojox.mobile.EdgeToEdgeList" class="list1" select="single" stateful="true">
+				<li class="mblVariableHeight"  dojoType="dojox.mobile.ListItem" >
+					<table>
+						<tbody>
+							<tr>
+								<td>
+									<img src="images/ethics.jpg" height="80px">
+								</td>
+								<td>
+									<div class="c1">GS 100</div>
+									<div class="c2">Ethics for the Information Age</div>
+									<div class="c3">1/25/11</div>
+								</td>
+							</tr>
+						</tbody>
+					</table>
+				</li>
+				<li class="mblVariableHeight" dojoType="dojox.mobile.ListItem" >
+					<table>
+						<tbody>
+							<tr>
+								<td>
+									<img src="images/info_tech.jpg" height="80px">
+								</td>
+								<td>
+									<div class="c1">IT 110</div>
+									<div class="c2">Information Technology Project Management</div>
+									<div class="c3">3/25/11</div>
+								</td>
+							</tr>
+						</tbody>
+					</table>
+				</li>								
+			</ul>
+		</div>
+		<div id="viewPrevious" dojoType="dojox.mobile.ScrollableView">
+			<ul dojoType="dojox.mobile.EdgeToEdgeList" class="list1" select="single" stateful="true">
+				<li class="mblVariableHeight"  dojoType="dojox.mobile.ListItem" >
+					<table>
+						<tbody>
+							<tr>
+								<td>
+									<img src="images/info_sec.jpg" height="80px">
+								</td>
+								<td>
+									<div class="c1">GS 123</div>
+									<div class="c2">Information Security</div>
+									<div class="c3">09/25/10</div>
+								</td>
+							</tr>
+						</tbody>
+					</table>
+				</li>
+								
+			</ul>
+		</div>
+
+		<div id="viewAll" dojoType="dojox.mobile.ScrollableView">
+			<ul dojoType="dojox.mobile.EdgeToEdgeList" class="list1" select="single" stateful="true">
+				<li class="mblVariableHeight" dojoType="dojox.mobile.ListItem">
+					<table>
+						<tbody>
+							<tr>
+								<td>
+									<img src="images/ethics.jpg" height="80px">
+								</td>
+								<td>
+									<div class="c1">GS 100</div>
+									<div class="c2">Ethics for the Information Age</div>
+									<div class="c3">1/25/11</div>
+								</td>
+							</tr>
+						</tbody>
+					</table>
+				</li>
+				<li class="mblVariableHeight" dojoType="dojox.mobile.ListItem">
+					<table>
+						<tbody>
+							<tr>
+								<td>
+									<img src="images/info_tech.jpg" height="80px">
+								</td>
+								<td>
+									<div class="c1">IT 110</div>
+									<div class="c2">Information Technology Project Management</div>
+									<div class="c3">3/25/11</div>
+								</td>
+							</tr>
+						</tbody>
+					</table>
+				</li>
+				<li class="mblVariableHeight" dojoType="dojox.mobile.ListItem" >
+					<table>
+						<tbody>
+							<tr>
+								<td>
+									<img src="images/info_sec.jpg" height="80px">
+								</td>
+								<td>
+									<div class="c1">IT 210</div>
+									<div class="c2">Information Security</div>
+									<div class="c3">7/05/11</div>
+								</td>
+							</tr>
+						</tbody>
+					</table>
+				</li>
+				<li class="mblVariableHeight" dojoType="dojox.mobile.ListItem" >
+					<table>
+						<tbody>
+							<tr>
+								<td>
+									<img src="images/info_systems.jpg" height="80px">
+								</td>
+								<td>
+								<div class="c1">GS 230</div>
+									<div class="c2">Information Systems</div>
+									<div class="c3">10/25/11</div>
+								</td>
+							</tr>
+						</tbody>
+					</table>
+				</li>			
+			</ul>
+		</div>	
+			
+	</div>					
+		<ul dojoType="dojox.mobile.TabBar" fixed="bottom" style="border-bottom:none;">
+			<li dojoType="dojox.mobile.TabBarButton" icon1="http://demos.dojotoolkit.org/dojox/mobile/tests/images/tab-icon-16.png" icon2="http://demos.dojotoolkit.org/dojox/mobile/tests/images/tab-icon-16h.png" href="ebook.html">eBook</li>
+			<li dojoType="dojox.mobile.TabBarButton" icon1="http://demos.dojotoolkit.org/dojox/mobile/tests/images/tab-icon-15.png" icon2="http://demos.dojotoolkit.org/dojox/mobile/tests/images/tab-icon-15h.png" href="media.html">Audio/Video</li>
+			<li dojoType="dojox.mobile.TabBarButton" icon1="http://demos.dojotoolkit.org/dojox/mobile/tests/images/tab-icon-10.png" icon2="http://demos.dojotoolkit.org/dojox/mobile/tests/images/tab-icon-10h.png" moveTo="group1">People</li>
+			<li dojoType="dojox.mobile.TabBarButton" icon1="http://demos.dojotoolkit.org/dojox/mobile/tests/images/tab-icon-11.png" icon2="http://demos.dojotoolkit.org/dojox/mobile/tests/images/tab-icon-11h.png" moveTo="group1">Links</li>
+			<li dojoType="dojox.mobile.TabBarButton" icon1="http://demos.dojotoolkit.org/dojox/mobile/tests/images/tab-icon-13.png" icon2="http://demos.dojotoolkit.org/dojox/mobile/tests/images/tab-icon-13h.png" moveTo="group1">Docs</li>
+		</ul>	   
+      		
+</body>
+</html>

@@ -1,0 +1,50 @@
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+	<meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,minimum-scale=1,user-scalable=no"/>
+	<meta name="apple-mobile-web-app-capable" content="yes" />
+	<title>Learning Tree - Disruptive Demo</title>
+	<link rel="stylesheet" type="text/css" href="http://demos.dojotoolkit.org/dojox/mobile/themes/iphone/base.css">
+	<link rel="stylesheet" type="text/css" href="http://demos.dojotoolkit.org/dojox/mobile/themes/iphone/TabBar.css">
+	
+	<link href="css/demo.css" rel="stylesheet">
+
+	<script src="http://ajax.googleapis.com/ajax/libs/dojo/1.7.1/dojo/dojo.js" djconfig="parseOnLoad: true"></script>
+	
+	<script language="JavaScript" type="text/javascript">
+		dojo.requireIf(!dojo.isWebKit, "dojox.mobile.compat");
+		dojo.require("dojox.mobile.TextBox");
+		dojo.require("dojox.mobile.Button");
+		dojo.require("dojo.io.script");
+        dojo.require("dojox.mobile.parser");
+        dojo.require("dojox.mobile");               
+        dojo.require("dojox.mobile.ScrollableView");
+	</script>
+</head>
+<body style="visibility:hidden;">
+	<div id="group1" dojoType="dojox.mobile.View" selected="true">
+		<h3 dojotype="dojox.mobile.Heading">KaplanU Learning Tree</h3>
+		<form name="mForm" action="/index.html>
+			<div class="field-title">
+				Login
+			</div>
+			<div class="fieldset">
+				<div class="field-row">
+					<span>User name*</span>
+					<input dojoType="dojox.mobile.TextBox" name="username" value="StanleyK" />
+				</div>
+				<div class="field-row">
+					<span style="margin-right:9px">Password*</span>
+					<input type="password" name="pass" dojoType="dojox.mobile.TextBox" value="kaplan"/>
+				</div>
+			</div>
+			<div style="text-align:left">
+				<button id="loginBtn" dojotype="dojox.mobile.Button" class="mblButton greyBtn baseBtn normalBtn">
+				Submit
+				</button> 
+			</div>
+		</form>
+    </div>		
+</body>
+</html>
