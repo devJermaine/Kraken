@@ -1,0 +1,325 @@
+TLearningTree
+v4
+r1
+cCheck dependencies
+cCpResource /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.0.sdk/ResourceRules.plist build/Debug-iphoneos/LearningTree.app/ResourceRules.plist
+cProcessInfoPlistFile /Users/james/Desktop/TeamKrakenStuff/iOS/LearningTree/build/Debug-iphoneos/LearningTree.app/Info.plist LearningTree/LearningTree-Info.plist
+cProcessPCH /var/folders/3z/3zj6wGoGE2edyXfLKy2qxU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/LearningTree-Prefix-bovfgqxzdleioccbughgakarqyfp/LearningTree-Prefix.pch.pth LearningTree/LearningTree-Prefix.pch normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/LearningTree.build/Debug-iphoneos/LearningTree.build/Objects-normal/armv7/AppDelegate.o /Users/james/Desktop/TeamKrakenStuff/iOS/LearningTree/LearningTree/AppDelegate.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/LearningTree.build/Debug-iphoneos/LearningTree.build/Objects-normal/armv7/main.o /Users/james/Desktop/TeamKrakenStuff/iOS/LearningTree/LearningTree/main.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/LearningTree.build/Debug-iphoneos/LearningTree.build/Objects-normal/armv7/ViewController.o /Users/james/Desktop/TeamKrakenStuff/iOS/LearningTree/LearningTree/ViewController.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cLd /Users/james/Desktop/TeamKrakenStuff/iOS/LearningTree/build/Debug-iphoneos/LearningTree.app/LearningTree normal armv7
+cGenerateDSYMFile /Users/james/Desktop/TeamKrakenStuff/iOS/LearningTree/build/Debug-iphoneos/LearningTree.app.dSYM /Users/james/Desktop/TeamKrakenStuff/iOS/LearningTree/build/Debug-iphoneos/LearningTree.app/LearningTree
+cCopyStringsFile /Users/james/Desktop/TeamKrakenStuff/iOS/LearningTree/build/Debug-iphoneos/LearningTree.app/en.lproj/InfoPlist.strings LearningTree/en.lproj/InfoPlist.strings
+cCompileStoryboard /Users/james/Desktop/TeamKrakenStuff/iOS/LearningTree/LearningTree/en.lproj/MainStoryboard_iPhone.storyboard
+cCompileStoryboard /Users/james/Desktop/TeamKrakenStuff/iOS/LearningTree/LearningTree/en.lproj/MainStoryboard_iPad.storyboard
+cProcessProductPackaging "/Users/james/Library/MobileDevice/Provisioning Profiles/C711F961-56D3-422D-9D37-B3905003D2E2.mobileprovision" /Users/james/Desktop/TeamKrakenStuff/iOS/LearningTree/build/Debug-iphoneos/LearningTree.app/embedded.mobileprovision
+cProcessProductPackaging "/Users/james/Library/MobileDevice/Provisioning Profiles/C711F961-56D3-422D-9D37-B3905003D2E2.mobileprovision" /Users/james/Desktop/TeamKrakenStuff/iOS/LearningTree/build/Debug-iphoneos/LearningTree.app/embedded.mobileprovision
+cTouch /Users/james/Desktop/TeamKrakenStuff/iOS/LearningTree/build/Debug-iphoneos/LearningTree.app
+cProcessProductPackaging /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.0.sdk/Entitlements.plist /Users/james/Desktop/TeamKrakenStuff/iOS/LearningTree/build/LearningTree.build/Debug-iphoneos/LearningTree.build/LearningTree.xcent
+cCodeSign /Users/james/Desktop/TeamKrakenStuff/iOS/LearningTree/build/Debug-iphoneos/LearningTree.app
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.0.sdk
+c000000004E7840290000000000000110
+t1316503593
+s272
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.0.sdk/Entitlements.plist
+c000000004E5C595800000000000001A7
+t1314675032
+s423
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.0.sdk/ResourceRules.plist
+c000000004E5C595800000000000001E5
+t1314675032
+s485
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.0.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+c000000004E72F28700000000003AB0A0
+t1316156039
+s3846304
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.0.sdk/System/Library/Frameworks/Foundation.framework/Foundation
+c000000004E72F3440000000000529540
+t1316156228
+s5412160
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.0.sdk/System/Library/Frameworks/UIKit.framework/UIKit
+c000000004E7808C7000000000078BE50
+t1316489415
+s7913040
+
+N/Users/james/Desktop/TeamKrakenStuff/iOS/LearningTree/LearningTree/AppDelegate.m
+c000000004F3AAC500000000000000846
+t1329245264
+s2118
+
+N/Users/james/Desktop/TeamKrakenStuff/iOS/LearningTree/LearningTree/LearningTree-Prefix.pch
+c000000004F3AAC500000000000000147
+t1329245264
+s327
+
+N/Users/james/Desktop/TeamKrakenStuff/iOS/LearningTree/LearningTree/ViewController.m
+c000000004F3AAC500000000000000696
+t1329245264
+s1686
+
+N/Users/james/Desktop/TeamKrakenStuff/iOS/LearningTree/LearningTree/en.lproj/InfoPlist.strings
+c000000004F3AAC50000000000000002D
+t1329245264
+s45
+
+N/Users/james/Desktop/TeamKrakenStuff/iOS/LearningTree/LearningTree/en.lproj/MainStoryboard_iPad.storyboard
+c000000004F3AAC5000000000000006F1
+t1329245264
+s1777
+
+N/Users/james/Desktop/TeamKrakenStuff/iOS/LearningTree/LearningTree/en.lproj/MainStoryboard_iPhone.storyboard
+c000000004F3AAC5000000000000005E7
+t1329245264
+s1511
+
+N/Users/james/Desktop/TeamKrakenStuff/iOS/LearningTree/LearningTree/main.m
+c000000004F3AAC500000000000000159
+t1329245264
+s345
+
+N/Users/james/Desktop/TeamKrakenStuff/iOS/LearningTree/build/Debug-iphoneos/LearningTree.app
+t2
+s0
+
+N/Users/james/Desktop/TeamKrakenStuff/iOS/LearningTree/build/Debug-iphoneos/LearningTree.app.dSYM
+t2
+s0
+
+N/Users/james/Desktop/TeamKrakenStuff/iOS/LearningTree/build/Debug-iphoneos/LearningTree.app/Info.plist
+t2
+s0
+
+N/Users/james/Desktop/TeamKrakenStuff/iOS/LearningTree/build/Debug-iphoneos/LearningTree.app/LearningTree
+t2
+s0
+
+N/Users/james/Desktop/TeamKrakenStuff/iOS/LearningTree/build/Debug-iphoneos/LearningTree.app/PkgInfo
+t2
+s0
+
+N/Users/james/Desktop/TeamKrakenStuff/iOS/LearningTree/build/Debug-iphoneos/LearningTree.app/ResourceRules.plist
+t2
+s0
+
+N/Users/james/Desktop/TeamKrakenStuff/iOS/LearningTree/build/Debug-iphoneos/LearningTree.app/embedded.mobileprovision
+t2
+s0
+
+N/Users/james/Desktop/TeamKrakenStuff/iOS/LearningTree/build/Debug-iphoneos/LearningTree.app/en.lproj/InfoPlist.strings
+t2
+s0
+
+N/Users/james/Desktop/TeamKrakenStuff/iOS/LearningTree/build/Debug-iphoneos/LearningTree.app/en.lproj/MainStoryboard_iPad.storyboardc
+t2
+s0
+
+N/Users/james/Desktop/TeamKrakenStuff/iOS/LearningTree/build/Debug-iphoneos/LearningTree.app/en.lproj/MainStoryboard_iPhone.storyboardc
+t2
+s0
+
+N/Users/james/Desktop/TeamKrakenStuff/iOS/LearningTree/build/LearningTree.build/Debug-iphoneos/LearningTree.build/LearningTree.xcent
+t2
+s0
+
+N/Users/james/Desktop/TeamKrakenStuff/iOS/LearningTree/build/LearningTree.build/Debug-iphoneos/LearningTree.build/Objects-normal/armv7/AppDelegate.o
+t2
+s0
+
+N/Users/james/Desktop/TeamKrakenStuff/iOS/LearningTree/build/LearningTree.build/Debug-iphoneos/LearningTree.build/Objects-normal/armv7/LearningTree.LinkFileList
+c000000004F3AAD5300000000000001B8
+t1329245523
+s440
+
+N/Users/james/Desktop/TeamKrakenStuff/iOS/LearningTree/build/LearningTree.build/Debug-iphoneos/LearningTree.build/Objects-normal/armv7/ViewController.o
+t2
+s0
+
+N/Users/james/Desktop/TeamKrakenStuff/iOS/LearningTree/build/LearningTree.build/Debug-iphoneos/LearningTree.build/Objects-normal/armv7/main.o
+t2
+s0
+
+N/Users/james/Library/MobileDevice/Provisioning Profiles/C711F961-56D3-422D-9D37-B3905003D2E2.mobileprovision
+c000000004F3AACC80000000000002949
+t1329245384
+s10569
+
+N/var/folders/3z/3zj6wGoGE2edyXfLKy2qxU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/LearningTree-Prefix-bovfgqxzdleioccbughgakarqyfp/LearningTree-Prefix.pch.pth
+t2
+s0
+
+NLearningTree/LearningTree-Info.plist
+c000000004F3AAC50000000000000066E
+t1329245264
+s1646
+
+CBuild AST from /Users/james/Desktop/TeamKrakenStuff/iOS/LearningTree/LearningTree/AppDelegate.m
+r0
+
+CBuild AST from /Users/james/Desktop/TeamKrakenStuff/iOS/LearningTree/LearningTree/ViewController.m
+r0
+
+CBuild AST from /Users/james/Desktop/TeamKrakenStuff/iOS/LearningTree/LearningTree/main.m
+r0
+
+CCheck dependencies
+r0
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependenciesf6efead2e4eab441^84837dd3e4eab441^---0#1#0#--18"Check dependencies36"A9B67CD7-EA75-4A03-B0D4-1164B4584E0D-
+
+CCodeSign /Users/james/Desktop/TeamKrakenStuff/iOS/LearningTree/build/Debug-iphoneos/LearningTree.app
+s350938373.988827
+e350938380.135305
+r1
+xCodeSign
+x/Users/james/Desktop/TeamKrakenStuff/iOS/LearningTree/build/Debug-iphoneos/LearningTree.app
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection46"CodeSign build/Debug-iphoneos/LearningTree.app4e42fd05e5eab441^7907340ce5eab441^---0#0#0#-19%DVTDocumentLocation2@108"file://localhost/Users/james/Desktop/TeamKrakenStuff/iOS/LearningTree/build/Debug-iphoneos/LearningTree.app/0000000000000000^785"CodeSign build/Debug-iphoneos/LearningTree.app    cd /Users/james/Desktop/TeamKrakenStuff/iOS/LearningTree    setenv CODESIGN_ALLOCATE /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/codesign_allocate    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/codesign --force --sign "iPhone Developer: Marc Kagan (3P4ZVRH9YW)" --resource-rules=/Users/james/Desktop/TeamKrakenStuff/iOS/LearningTree/build/Debug-iphoneos/LearningTree.app/ResourceRules.plist --entitlements /Users/james/Desktop/TeamKrakenStuff/iOS/LearningTree/build/LearningTree.build/Debug-iphoneos/LearningTree.build/LearningTree.xcent /Users/james/Desktop/TeamKrakenStuff/iOS/LearningTree/build/Debug-iphoneos/LearningTree.app36"0185F23C-4EF9-49A8-A22E-D98323D06818-
+
+CCompileC build/LearningTree.build/Debug-iphoneos/LearningTree.build/Objects-normal/armv7/AppDelegate.o /Users/james/Desktop/TeamKrakenStuff/iOS/LearningTree/LearningTree/AppDelegate.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s350938344.289197
+e350938346.140541
+r1
+xCompileC
+xbuild/LearningTree.build/Debug-iphoneos/LearningTree.build/Objects-normal/armv7/AppDelegate.o
+x/Users/james/Desktop/TeamKrakenStuff/iOS/LearningTree/LearningTree/AppDelegate.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection88"Compile /Users/james/Desktop/TeamKrakenStuff/iOS/LearningTree/LearningTree/AppDelegate.mcc244ae8e4eab441^37fb23eae4eab441^---0#0#0#-19%DVTDocumentLocation2@96"file://localhost/Users/james/Desktop/TeamKrakenStuff/iOS/LearningTree/LearningTree/AppDelegate.m0000000000000000^2771"CompileC build/LearningTree.build/Debug-iphoneos/LearningTree.build/Objects-normal/armv7/AppDelegate.o LearningTree/AppDelegate.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/james/Desktop/TeamKrakenStuff/iOS/LearningTree    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/clang -x objective-c -arch armv7 -fmessage-length=0 -fdiagnostics-print-source-range-info -fdiagnostics-show-category=id -fdiagnostics-parseable-fixits -std=gnu99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wmissing-prototypes -Wreturn-type -Wparentheses -Wswitch -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-shorten-64-to-32 -DDEBUG=1 -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.0.sdk -gdwarf-2 -Wno-sign-conversion -mthumb "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -miphoneos-version-min=5.0 -iquote /Users/james/Desktop/TeamKrakenStuff/iOS/LearningTree/build/LearningTree.build/Debug-iphoneos/LearningTree.build/LearningTree-generated-files.hmap -I/Users/james/Desktop/TeamKrakenStuff/iOS/LearningTree/build/LearningTree.build/Debug-iphoneos/LearningTree.build/LearningTree-own-target-headers.hmap -I/Users/james/Desktop/TeamKrakenStuff/iOS/LearningTree/build/LearningTree.build/Debug-iphoneos/LearningTree.build/LearningTree-all-target-headers.hmap -iquote /Users/james/Desktop/TeamKrakenStuff/iOS/LearningTree/build/LearningTree.build/Debug-iphoneos/LearningTree.build/LearningTree-project-headers.hmap -I/Users/james/Desktop/TeamKrakenStuff/iOS/LearningTree/build/Debug-iphoneos/include -I/Users/james/Desktop/TeamKrakenStuff/iOS/LearningTree/build/LearningTree.build/Debug-iphoneos/LearningTree.build/DerivedSources/armv7 -I/Users/james/Desktop/TeamKrakenStuff/iOS/LearningTree/build/LearningTree.build/Debug-iphoneos/LearningTree.build/DerivedSources -F/Users/james/Desktop/TeamKrakenStuff/iOS/LearningTree/build/Debug-iphoneos -include /var/folders/3z/3zj6wGoGE2edyXfLKy2qxU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/LearningTree-Prefix-bovfgqxzdleioccbughgakarqyfp/LearningTree-Prefix.pch -MMD -MT dependencies -MF /Users/james/Desktop/TeamKrakenStuff/iOS/LearningTree/build/LearningTree.build/Debug-iphoneos/LearningTree.build/Objects-normal/armv7/AppDelegate.d -c /Users/james/Desktop/TeamKrakenStuff/iOS/LearningTree/LearningTree/AppDelegate.m -o /Users/james/Desktop/TeamKrakenStuff/iOS/LearningTree/build/LearningTree.build/Debug-iphoneos/LearningTree.build/Objects-normal/armv7/AppDelegate.o36"A801C63F-DCAE-4A98-8D78-1E68570DE7C3-
+
+CCompileC build/LearningTree.build/Debug-iphoneos/LearningTree.build/Objects-normal/armv7/ViewController.o /Users/james/Desktop/TeamKrakenStuff/iOS/LearningTree/LearningTree/ViewController.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s350938344.289709
+e350938346.126526
+r1
+xCompileC
+xbuild/LearningTree.build/Debug-iphoneos/LearningTree.build/Objects-normal/armv7/ViewController.o
+x/Users/james/Desktop/TeamKrakenStuff/iOS/LearningTree/LearningTree/ViewController.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection91"Compile /Users/james/Desktop/TeamKrakenStuff/iOS/LearningTree/LearningTree/ViewController.mfd4b4ae8e4eab441^f96520eae4eab441^---0#0#0#-19%DVTDocumentLocation2@99"file://localhost/Users/james/Desktop/TeamKrakenStuff/iOS/LearningTree/LearningTree/ViewController.m0000000000000000^2786"CompileC build/LearningTree.build/Debug-iphoneos/LearningTree.build/Objects-normal/armv7/ViewController.o LearningTree/ViewController.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/james/Desktop/TeamKrakenStuff/iOS/LearningTree    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/clang -x objective-c -arch armv7 -fmessage-length=0 -fdiagnostics-print-source-range-info -fdiagnostics-show-category=id -fdiagnostics-parseable-fixits -std=gnu99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wmissing-prototypes -Wreturn-type -Wparentheses -Wswitch -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-shorten-64-to-32 -DDEBUG=1 -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.0.sdk -gdwarf-2 -Wno-sign-conversion -mthumb "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -miphoneos-version-min=5.0 -iquote /Users/james/Desktop/TeamKrakenStuff/iOS/LearningTree/build/LearningTree.build/Debug-iphoneos/LearningTree.build/LearningTree-generated-files.hmap -I/Users/james/Desktop/TeamKrakenStuff/iOS/LearningTree/build/LearningTree.build/Debug-iphoneos/LearningTree.build/LearningTree-own-target-headers.hmap -I/Users/james/Desktop/TeamKrakenStuff/iOS/LearningTree/build/LearningTree.build/Debug-iphoneos/LearningTree.build/LearningTree-all-target-headers.hmap -iquote /Users/james/Desktop/TeamKrakenStuff/iOS/LearningTree/build/LearningTree.build/Debug-iphoneos/LearningTree.build/LearningTree-project-headers.hmap -I/Users/james/Desktop/TeamKrakenStuff/iOS/LearningTree/build/Debug-iphoneos/include -I/Users/james/Desktop/TeamKrakenStuff/iOS/LearningTree/build/LearningTree.build/Debug-iphoneos/LearningTree.build/DerivedSources/armv7 -I/Users/james/Desktop/TeamKrakenStuff/iOS/LearningTree/build/LearningTree.build/Debug-iphoneos/LearningTree.build/DerivedSources -F/Users/james/Desktop/TeamKrakenStuff/iOS/LearningTree/build/Debug-iphoneos -include /var/folders/3z/3zj6wGoGE2edyXfLKy2qxU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/LearningTree-Prefix-bovfgqxzdleioccbughgakarqyfp/LearningTree-Prefix.pch -MMD -MT dependencies -MF /Users/james/Desktop/TeamKrakenStuff/iOS/LearningTree/build/LearningTree.build/Debug-iphoneos/LearningTree.build/Objects-normal/armv7/ViewController.d -c /Users/james/Desktop/TeamKrakenStuff/iOS/LearningTree/LearningTree/ViewController.m -o /Users/james/Desktop/TeamKrakenStuff/iOS/LearningTree/build/LearningTree.build/Debug-iphoneos/LearningTree.build/Objects-normal/armv7/ViewController.o36"C213CC13-0924-43AE-87C8-B3BA2A11ABBC-
+
+CCompileC build/LearningTree.build/Debug-iphoneos/LearningTree.build/Objects-normal/armv7/main.o /Users/james/Desktop/TeamKrakenStuff/iOS/LearningTree/LearningTree/main.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s350938344.289713
+e350938346.074543
+r1
+xCompileC
+xbuild/LearningTree.build/Debug-iphoneos/LearningTree.build/Objects-normal/armv7/main.o
+x/Users/james/Desktop/TeamKrakenStuff/iOS/LearningTree/LearningTree/main.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection81"Compile /Users/james/Desktop/TeamKrakenStuff/iOS/LearningTree/LearningTree/main.me5454ae8e4eab441^58e71ceae4eab441^---0#0#0#-19%DVTDocumentLocation2@89"file://localhost/Users/james/Desktop/TeamKrakenStuff/iOS/LearningTree/LearningTree/main.m0000000000000000^2736"CompileC build/LearningTree.build/Debug-iphoneos/LearningTree.build/Objects-normal/armv7/main.o LearningTree/main.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/james/Desktop/TeamKrakenStuff/iOS/LearningTree    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/clang -x objective-c -arch armv7 -fmessage-length=0 -fdiagnostics-print-source-range-info -fdiagnostics-show-category=id -fdiagnostics-parseable-fixits -std=gnu99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wmissing-prototypes -Wreturn-type -Wparentheses -Wswitch -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-shorten-64-to-32 -DDEBUG=1 -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.0.sdk -gdwarf-2 -Wno-sign-conversion -mthumb "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -miphoneos-version-min=5.0 -iquote /Users/james/Desktop/TeamKrakenStuff/iOS/LearningTree/build/LearningTree.build/Debug-iphoneos/LearningTree.build/LearningTree-generated-files.hmap -I/Users/james/Desktop/TeamKrakenStuff/iOS/LearningTree/build/LearningTree.build/Debug-iphoneos/LearningTree.build/LearningTree-own-target-headers.hmap -I/Users/james/Desktop/TeamKrakenStuff/iOS/LearningTree/build/LearningTree.build/Debug-iphoneos/LearningTree.build/LearningTree-all-target-headers.hmap -iquote /Users/james/Desktop/TeamKrakenStuff/iOS/LearningTree/build/LearningTree.build/Debug-iphoneos/LearningTree.build/LearningTree-project-headers.hmap -I/Users/james/Desktop/TeamKrakenStuff/iOS/LearningTree/build/Debug-iphoneos/include -I/Users/james/Desktop/TeamKrakenStuff/iOS/LearningTree/build/LearningTree.build/Debug-iphoneos/LearningTree.build/DerivedSources/armv7 -I/Users/james/Desktop/TeamKrakenStuff/iOS/LearningTree/build/LearningTree.build/Debug-iphoneos/LearningTree.build/DerivedSources -F/Users/james/Desktop/TeamKrakenStuff/iOS/LearningTree/build/Debug-iphoneos -include /var/folders/3z/3zj6wGoGE2edyXfLKy2qxU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/LearningTree-Prefix-bovfgqxzdleioccbughgakarqyfp/LearningTree-Prefix.pch -MMD -MT dependencies -MF /Users/james/Desktop/TeamKrakenStuff/iOS/LearningTree/build/LearningTree.build/Debug-iphoneos/LearningTree.build/Objects-normal/armv7/main.d -c /Users/james/Desktop/TeamKrakenStuff/iOS/LearningTree/LearningTree/main.m -o /Users/james/Desktop/TeamKrakenStuff/iOS/LearningTree/build/LearningTree.build/Debug-iphoneos/LearningTree.build/Objects-normal/armv7/main.o36"C4ACF6BE-7AA9-467B-B022-68BBA9C6F4DC-
+
+CCompileStoryboard /Users/james/Desktop/TeamKrakenStuff/iOS/LearningTree/LearningTree/en.lproj/MainStoryboard_iPad.storyboard
+s350938358.625573
+e350938373.393342
+r1
+xCompileStoryboard
+x/Users/james/Desktop/TeamKrakenStuff/iOS/LearningTree/LearningTree/en.lproj/MainStoryboard_iPad.storyboard
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection70"CompileStoryboard LearningTree/en.lproj/MainStoryboard_iPad.storyboardbb45a0f6e4eab441^91b76405e5eab441^---0#0#0#-19%DVTDocumentLocation2@122"file://localhost/Users/james/Desktop/TeamKrakenStuff/iOS/LearningTree/LearningTree/en.lproj/MainStoryboard_iPad.storyboard0000000000000000^786"CompileStoryboard LearningTree/en.lproj/MainStoryboard_iPad.storyboard    cd /Users/james/Desktop/TeamKrakenStuff/iOS/LearningTree    setenv IBSC_MINIMUM_COMPATIBILITY_VERSION 5.0    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    setenv XCODE_DEVELOPER_USR_PATH /Developer/usr/bin/..    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/james/Desktop/TeamKrakenStuff/iOS/LearningTree/build/Debug-iphoneos/LearningTree.app/en.lproj/MainStoryboard_iPad.storyboardc /Users/james/Desktop/TeamKrakenStuff/iOS/LearningTree/LearningTree/en.lproj/MainStoryboard_iPad.storyboard --sdk /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.0.sdk36"DB68432C-F53C-410A-8780-2DADB564B17C-
+
+CCompileStoryboard /Users/james/Desktop/TeamKrakenStuff/iOS/LearningTree/LearningTree/en.lproj/MainStoryboard_iPhone.storyboard
+s350938358.625576
+e350938373.393419
+r1
+xCompileStoryboard
+x/Users/james/Desktop/TeamKrakenStuff/iOS/LearningTree/LearningTree/en.lproj/MainStoryboard_iPhone.storyboard
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection72"CompileStoryboard LearningTree/en.lproj/MainStoryboard_iPhone.storyboardd846a0f6e4eab441^6ec36405e5eab441^---0#0#0#-19%DVTDocumentLocation2@124"file://localhost/Users/james/Desktop/TeamKrakenStuff/iOS/LearningTree/LearningTree/en.lproj/MainStoryboard_iPhone.storyboard0000000000000000^792"CompileStoryboard LearningTree/en.lproj/MainStoryboard_iPhone.storyboard    cd /Users/james/Desktop/TeamKrakenStuff/iOS/LearningTree    setenv IBSC_MINIMUM_COMPATIBILITY_VERSION 5.0    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    setenv XCODE_DEVELOPER_USR_PATH /Developer/usr/bin/..    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/james/Desktop/TeamKrakenStuff/iOS/LearningTree/build/Debug-iphoneos/LearningTree.app/en.lproj/MainStoryboard_iPhone.storyboardc /Users/james/Desktop/TeamKrakenStuff/iOS/LearningTree/LearningTree/en.lproj/MainStoryboard_iPhone.storyboard --sdk /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.0.sdk36"AB308F6A-EA07-4AD3-A230-70A288543A6B-
+
+CCopyStringsFile /Users/james/Desktop/TeamKrakenStuff/iOS/LearningTree/build/Debug-iphoneos/LearningTree.app/en.lproj/InfoPlist.strings LearningTree/en.lproj/InfoPlist.strings
+s350938358.625170
+e350938358.885784
+r1
+xCopyStringsFile
+x/Users/james/Desktop/TeamKrakenStuff/iOS/LearningTree/build/Debug-iphoneos/LearningTree.app/en.lproj/InfoPlist.strings
+xLearningTree/en.lproj/InfoPlist.strings
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection44"Copy LearningTree/en.lproj/InfoPlist.strings942fa0f6e4eab441^e3c5e2f6e4eab441^---0#0#0#-19%DVTDocumentLocation2@109"file://localhost/Users/james/Desktop/TeamKrakenStuff/iOS/LearningTree/LearningTree/en.lproj/InfoPlist.strings0000000000000000^540"CopyStringsFile build/Debug-iphoneos/LearningTree.app/en.lproj/InfoPlist.strings LearningTree/en.lproj/InfoPlist.strings    cd /Users/james/Desktop/TeamKrakenStuff/iOS/LearningTree    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copyStrings --validate --inputencoding utf-8 --outputencoding binary --outdir /Users/james/Desktop/TeamKrakenStuff/iOS/LearningTree/build/Debug-iphoneos/LearningTree.app/en.lproj -- LearningTree/en.lproj/InfoPlist.strings36"6CAD4A89-C1D2-4771-BC04-5CBF4F460BE4-
+
+CCpResource /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.0.sdk/ResourceRules.plist build/Debug-iphoneos/LearningTree.app/ResourceRules.plist
+s350938323.496215
+e350938324.111663
+r1
+xCpResource
+x/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.0.sdk/ResourceRules.plist
+xbuild/Debug-iphoneos/LearningTree.app/ResourceRules.plist
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection62"Copy build/Debug-iphoneos/LearningTree.app/ResourceRules.pliste013cbd3e4eab441^34d537d4e4eab441^---0#0#0#-19%DVTDocumentLocation2@127"file://localhost/Users/james/Desktop/TeamKrakenStuff/iOS/LearningTree/build/Debug-iphoneos/LearningTree.app/ResourceRules.plist00f8880adcffdf42^638"CpResource /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.0.sdk/ResourceRules.plist build/Debug-iphoneos/LearningTree.app/ResourceRules.plist    cd /Users/james/Desktop/TeamKrakenStuff/iOS/LearningTree    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.0.sdk/ResourceRules.plist /Users/james/Desktop/TeamKrakenStuff/iOS/LearningTree/build/Debug-iphoneos/LearningTree.app36"CE44D5F8-28EE-46F3-AEE2-FD20CA1D571F-
+
+CGenerateDSYMFile /Users/james/Desktop/TeamKrakenStuff/iOS/LearningTree/build/Debug-iphoneos/LearningTree.app.dSYM /Users/james/Desktop/TeamKrakenStuff/iOS/LearningTree/build/Debug-iphoneos/LearningTree.app/LearningTree
+s350938358.089779
+e350938358.622556
+r1
+xGenerateDSYMFile
+x/Users/james/Desktop/TeamKrakenStuff/iOS/LearningTree/build/Debug-iphoneos/LearningTree.app.dSYM
+x/Users/james/Desktop/TeamKrakenStuff/iOS/LearningTree/build/Debug-iphoneos/LearningTree.app/LearningTree
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection107"Generating /Users/james/Desktop/TeamKrakenStuff/iOS/LearningTree/build/Debug-iphoneos/LearningTree.app.dSYM170f17f6e4eab441^4a609ff6e4eab441^---0#0#0#-19%DVTDocumentLocation2@112"file://localhost/Users/james/Desktop/TeamKrakenStuff/iOS/LearningTree/build/Debug-iphoneos/LearningTree.app.dSYM00f8880adcffdf42^533"GenerateDSYMFile build/Debug-iphoneos/LearningTree.app.dSYM build/Debug-iphoneos/LearningTree.app/LearningTree    cd /Users/james/Desktop/TeamKrakenStuff/iOS/LearningTree    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/dsymutil /Users/james/Desktop/TeamKrakenStuff/iOS/LearningTree/build/Debug-iphoneos/LearningTree.app/LearningTree -o /Users/james/Desktop/TeamKrakenStuff/iOS/LearningTree/build/Debug-iphoneos/LearningTree.app.dSYM36"B284A260-DE3E-4BF5-830F-E58B2CA5D402-
+
+CLd /Users/james/Desktop/TeamKrakenStuff/iOS/LearningTree/build/Debug-iphoneos/LearningTree.app/LearningTree normal armv7
+s350938346.141833
+e350938358.088282
+r1
+xLd
+x/Users/james/Desktop/TeamKrakenStuff/iOS/LearningTree/build/Debug-iphoneos/LearningTree.app/LearningTree
+xnormal
+xarmv7
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection109"Link /Users/james/Desktop/TeamKrakenStuff/iOS/LearningTree/build/Debug-iphoneos/LearningTree.app/LearningTree767024eae4eab441^289b16f6e4eab441^---0#0#0#--998"Ld build/Debug-iphoneos/LearningTree.app/LearningTree normal armv7    cd /Users/james/Desktop/TeamKrakenStuff/iOS/LearningTree    setenv IPHONEOS_DEPLOYMENT_TARGET 5.0    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/clang -arch armv7 -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.0.sdk -L/Users/james/Desktop/TeamKrakenStuff/iOS/LearningTree/build/Debug-iphoneos -F/Users/james/Desktop/TeamKrakenStuff/iOS/LearningTree/build/Debug-iphoneos -filelist /Users/james/Desktop/TeamKrakenStuff/iOS/LearningTree/build/LearningTree.build/Debug-iphoneos/LearningTree.build/Objects-normal/armv7/LearningTree.LinkFileList -dead_strip -fobjc-arc -miphoneos-version-min=5.0 -framework UIKit -framework Foundation -framework CoreGraphics -o /Users/james/Desktop/TeamKrakenStuff/iOS/LearningTree/build/Debug-iphoneos/LearningTree.app/LearningTree36"8BA17A9A-6F64-4E0D-BD44-6C43BCA364A5-
+
+CProcessInfoPlistFile /Users/james/Desktop/TeamKrakenStuff/iOS/LearningTree/build/Debug-iphoneos/LearningTree.app/Info.plist LearningTree/LearningTree-Info.plist
+s350938323.496832
+e350938324.169017
+r1
+xProcessInfoPlistFile
+x/Users/james/Desktop/TeamKrakenStuff/iOS/LearningTree/build/Debug-iphoneos/LearningTree.app/Info.plist
+xLearningTree/LearningTree-Info.plist
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection44"Process LearningTree/LearningTree-Info.plistd715cbd3e4eab441^9cdc37d4e4eab441^---0#0#0#-19%DVTDocumentLocation2@106"file://localhost/Users/james/Desktop/TeamKrakenStuff/iOS/LearningTree/LearningTree/LearningTree-Info.plist0000000000000000^762"ProcessInfoPlistFile build/Debug-iphoneos/LearningTree.app/Info.plist LearningTree/LearningTree-Info.plist    cd /Users/james/Desktop/TeamKrakenStuff/iOS/LearningTree    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-infoPlistUtility LearningTree/LearningTree-Info.plist -genpkginfo /Users/james/Desktop/TeamKrakenStuff/iOS/LearningTree/build/Debug-iphoneos/LearningTree.app/PkgInfo -expandbuildsettings -format binary -platform iphoneos -resourcerulesfile /Users/james/Desktop/TeamKrakenStuff/iOS/LearningTree/build/Debug-iphoneos/LearningTree.app/ResourceRules.plist -o /Users/james/Desktop/TeamKrakenStuff/iOS/LearningTree/build/Debug-iphoneos/LearningTree.app/Info.plist36"B559535C-19EC-41DC-ABCA-8FF6D8701332-
+
+CProcessPCH /Users/james/Library/Developer/Xcode/DerivedData/LearningTree-hbujvxkveuzqmjghfkpzjxbibcta/Index/PrecompiledHeaders/LearningTree-Prefix-cezghymifutwkncdbbnqaeqrhyuc_ast/LearningTree-Prefix.pch.pth LearningTree/LearningTree-Prefix.pch normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.astbuilder
+r0
+
+CProcessPCH /var/folders/3z/3zj6wGoGE2edyXfLKy2qxU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/LearningTree-Prefix-bovfgqxzdleioccbughgakarqyfp/LearningTree-Prefix.pch.pth LearningTree/LearningTree-Prefix.pch normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s350938324.171721
+e350938344.287857
+r1
+xProcessPCH
+x/var/folders/3z/3zj6wGoGE2edyXfLKy2qxU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/LearningTree-Prefix-bovfgqxzdleioccbughgakarqyfp/LearningTree-Prefix.pch.pth
+xLearningTree/LearningTree-Prefix.pch
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection47"Precompile LearningTree/LearningTree-Prefix.pch1f142cd4e4eab441^36b049e8e4eab441^---0#0#0#-19%DVTDocumentLocation2@106"file://localhost/Users/james/Desktop/TeamKrakenStuff/iOS/LearningTree/LearningTree/LearningTree-Prefix.pch0000000000000000^2753"ProcessPCH /var/folders/3z/3zj6wGoGE2edyXfLKy2qxU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/LearningTree-Prefix-bovfgqxzdleioccbughgakarqyfp/LearningTree-Prefix.pch.pth LearningTree/LearningTree-Prefix.pch normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/james/Desktop/TeamKrakenStuff/iOS/LearningTree    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/clang -x objective-c-header -arch armv7 -fmessage-length=0 -fdiagnostics-print-source-range-info -fdiagnostics-show-category=id -fdiagnostics-parseable-fixits -std=gnu99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wmissing-prototypes -Wreturn-type -Wparentheses -Wswitch -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-shorten-64-to-32 -DDEBUG=1 -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.0.sdk -gdwarf-2 -Wno-sign-conversion -mthumb "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -miphoneos-version-min=5.0 -iquote /Users/james/Desktop/TeamKrakenStuff/iOS/LearningTree/build/LearningTree.build/Debug-iphoneos/LearningTree.build/LearningTree-generated-files.hmap -I/Users/james/Desktop/TeamKrakenStuff/iOS/LearningTree/build/LearningTree.build/Debug-iphoneos/LearningTree.build/LearningTree-own-target-headers.hmap -I/Users/james/Desktop/TeamKrakenStuff/iOS/LearningTree/build/LearningTree.build/Debug-iphoneos/LearningTree.build/LearningTree-all-target-headers.hmap -iquote /Users/james/Desktop/TeamKrakenStuff/iOS/LearningTree/build/LearningTree.build/Debug-iphoneos/LearningTree.build/LearningTree-project-headers.hmap -I/Users/james/Desktop/TeamKrakenStuff/iOS/LearningTree/build/Debug-iphoneos/include -I/Users/james/Desktop/TeamKrakenStuff/iOS/LearningTree/build/LearningTree.build/Debug-iphoneos/LearningTree.build/DerivedSources/armv7 -I/Users/james/Desktop/TeamKrakenStuff/iOS/LearningTree/build/LearningTree.build/Debug-iphoneos/LearningTree.build/DerivedSources -F/Users/james/Desktop/TeamKrakenStuff/iOS/LearningTree/build/Debug-iphoneos -c /Users/james/Desktop/TeamKrakenStuff/iOS/LearningTree/LearningTree/LearningTree-Prefix.pch -o /var/folders/3z/3zj6wGoGE2edyXfLKy2qxU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/LearningTree-Prefix-bovfgqxzdleioccbughgakarqyfp/LearningTree-Prefix.pch.pth -MMD -MT dependencies -MF /var/folders/3z/3zj6wGoGE2edyXfLKy2qxU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/LearningTree-Prefix-bovfgqxzdleioccbughgakarqyfp/LearningTree-Prefix.pch.d36"9351D5F1-2D49-4C5C-ACA1-9B76A70EB1A0-
+
+CProcessProductPackaging "/Users/james/Library/MobileDevice/Provisioning Profiles/C711F961-56D3-422D-9D37-B3905003D2E2.mobileprovision" /Users/james/Desktop/TeamKrakenStuff/iOS/LearningTree/build/Debug-iphoneos/LearningTree.app/embedded.mobileprovision
+s350938373.488275
+e350938373.506001
+r1
+xProcessProductPackaging
+x/Users/james/Library/MobileDevice/Provisioning Profiles/C711F961-56D3-422D-9D37-B3905003D2E2.mobileprovision
+x/Users/james/Desktop/TeamKrakenStuff/iOS/LearningTree/build/Debug-iphoneos/LearningTree.app/embedded.mobileprovision
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection197"ProcessProductPackaging "/Users/james/Library/MobileDevice/Provisioning Profiles/C711F961-56D3-422D-9D37-B3905003D2E2.mobileprovision" build/Debug-iphoneos/LearningTree.app/embedded.mobileprovision30137d05e5eab441^fe9d8105e5eab441^---0#0#0#-19%DVTDocumentLocation2@132"file://localhost/Users/james/Desktop/TeamKrakenStuff/iOS/LearningTree/build/Debug-iphoneos/LearningTree.app/embedded.mobileprovision0000000000000000^650"ProcessProductPackaging "/Users/james/Library/MobileDevice/Provisioning Profiles/C711F961-56D3-422D-9D37-B3905003D2E2.mobileprovision" build/Debug-iphoneos/LearningTree.app/embedded.mobileprovision    cd /Users/james/Desktop/TeamKrakenStuff/iOS/LearningTree    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-productPackagingUtility "/Users/james/Library/MobileDevice/Provisioning Profiles/C711F961-56D3-422D-9D37-B3905003D2E2.mobileprovision" -o /Users/james/Desktop/TeamKrakenStuff/iOS/LearningTree/build/Debug-iphoneos/LearningTree.app/embedded.mobileprovision36"8653CD94-A8FE-4C6F-9017-A2A4D911FB55-
+
+CProcessProductPackaging /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.0.sdk/Entitlements.plist /Users/james/Desktop/TeamKrakenStuff/iOS/LearningTree/build/LearningTree.build/Debug-iphoneos/LearningTree.build/LearningTree.xcent
+s350938373.660248
+e350938373.986368
+r1
+xProcessProductPackaging
+x/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.0.sdk/Entitlements.plist
+x/Users/james/Desktop/TeamKrakenStuff/iOS/LearningTree/build/LearningTree.build/Debug-iphoneos/LearningTree.build/LearningTree.xcent
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection190"ProcessProductPackaging /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.0.sdk/Entitlements.plist build/LearningTree.build/Debug-iphoneos/LearningTree.build/LearningTree.xcentc218a905e5eab441^0283fc05e5eab441^---0#0#0#-19%DVTDocumentLocation2@147"file://localhost/Users/james/Desktop/TeamKrakenStuff/iOS/LearningTree/build/LearningTree.build/Debug-iphoneos/LearningTree.build/LearningTree.xcent00f8880adcffdf42^662"ProcessProductPackaging /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.0.sdk/Entitlements.plist build/LearningTree.build/Debug-iphoneos/LearningTree.build/LearningTree.xcent    cd /Users/james/Desktop/TeamKrakenStuff/iOS/LearningTree    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-productPackagingUtility /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.0.sdk/Entitlements.plist -entitlements -format xml -o /Users/james/Desktop/TeamKrakenStuff/iOS/LearningTree/build/LearningTree.build/Debug-iphoneos/LearningTree.build/LearningTree.xcent36"4E2C387E-BA81-441B-BB92-6922C8956CEF-
+
+CTouch /Users/james/Desktop/TeamKrakenStuff/iOS/LearningTree/build/Debug-iphoneos/LearningTree.app
+s350938373.508768
+e350938373.657704
+r1
+xTouch
+x/Users/james/Desktop/TeamKrakenStuff/iOS/LearningTree/build/Debug-iphoneos/LearningTree.app
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection97"Touch /Users/james/Desktop/TeamKrakenStuff/iOS/LearningTree/build/Debug-iphoneos/LearningTree.appfa638205e5eab441^f65ea805e5eab441^---0#0#0#--343"Touch build/Debug-iphoneos/LearningTree.app    cd /Users/james/Desktop/TeamKrakenStuff/iOS/LearningTree    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/touch -c /Users/james/Desktop/TeamKrakenStuff/iOS/LearningTree/build/Debug-iphoneos/LearningTree.app36"A6F4FB53-06B3-4076-B522-E394F077C019-
+
