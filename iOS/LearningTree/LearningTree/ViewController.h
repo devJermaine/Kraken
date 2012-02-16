@@ -9,5 +9,10 @@
 #import <UIKit/UIKit.h>
 
 @interface ViewController : UIViewController
+{
+    UIWebView *wbMain;
+}
+
+@property (nonatomic, retain) UIWebView *wbMain;
 
 @end

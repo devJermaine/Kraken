@@ -10,6 +10,8 @@
 
 @implementation ViewController
 
+@synthesize wbMain;
+
 - (void)didReceiveMemoryWarning
 {
     [super didReceiveMemoryWarning];
@@ -27,7 +29,7 @@
     
     CGRect wbFrame = CGRectMake(0, 0, self.view.frame.size.width, self.view.frame.size.height);
     
-    UIWebView *wbMain = [[UIWebView alloc] initWithFrame:wbFrame];
+    wbMain = [[UIWebView alloc] initWithFrame:wbFrame];
     [wbMain loadRequest:req];
     
     [self.view addSubview:wbMain];
@@ -62,11 +64,27 @@
 
 - (BOOL)shouldAutorotateToInterfaceOrientation:(UIInterfaceOrientation)interfaceOrientation
 {
-    // Return YES for supported orientations
-    if ([[UIDevice currentDevice] userInterfaceIdiom] == UIUserInterfaceIdiomPhone) {
-        return (interfaceOrientation != UIInterfaceOrientationPortraitUpsideDown);
+    return YES;
+}
+
+-(void)didRotateFromInterfaceOrientation:(UIInterfaceOrientation)fromInterfaceOrientation
+{
+    [super didRotateFromInterfaceOrientation:fromInterfaceOrientation];
+    
+    if (UIInterfaceOrientationIsLandscape(fromInterfaceOrientation)) {
+        if (self.view.frame.size.width > 350) {
+            wbMain.frame = CGRectMake(0, 0, 768, 1004);
+        }
+        else {
+            wbMain.frame = CGRectMake(0, 0, 320, 460);
+        }
     } else {
-        return YES;
+        if (self.view.frame.size.width > 350) {
+            wbMain.frame = CGRectMake(0, 0, 1024, 748);
+        }
+        else {
+            wbMain.frame = CGRectMake(0, 0, 480, 300);
+        }
     }
 }
 
